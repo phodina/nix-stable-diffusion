@@ -10,7 +10,7 @@ buildPythonPackage rec {
 
   src = fetchPypi {
     inherit pname version;
-    sha256 = "571da56ff8d0bec8ae54923b621cda98d36dcef10feb36fd492c4d0c2cd0e869";
+    sha256 = "sha256-zY+RFK8LqZnGDbz/UJBYz0OIxb4hZI1ncxClAshTymU=";
   }; 
 
   pythonRemoveDeps = [ "setuptools-rust" ];
